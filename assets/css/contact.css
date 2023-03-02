@@ -1,0 +1,70 @@
+.contact-banner{
+    background: #FFFCF4;
+}
+.contact-banner h2{
+    font-size: 64px;
+    line-height: 78px;
+    padding: 68px 0;
+}
+.contact{
+    margin-bottom: 120px;
+}
+.contact .top{
+    margin: 93px 0 53px ;
+}
+.contact .top h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+}
+.contact .top p{
+    margin-top: 8px;
+    width: 540px;
+}
+.contact .content h6{
+    font-family: 'Open Sans' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #201F1E;
+}
+.contact .content p{
+    margin: 16px 0 56px;
+}
+.contact input{
+    padding: 10px;
+    border: 0.8px solid #B5B5B5;
+    border-radius: 8px;
+}
+.contact input:focus, .contact textarea:focus{
+    border: 0.8px solid #F42020;
+    box-shadow: 0 0 0 0.25rem rgba(244, 32, 32, 0.03);
+}
+
+.contact label{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #201F1E;
+margin-bottom: 12px;
+}
+.contact textarea{
+    padding: 10px;
+}
+.contact ::placeholder{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: #BEBEBE;
+}
+.contact .details p, .contact .content p{
+line-height: 26px;
+color: #686868;
+}

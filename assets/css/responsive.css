@@ -1,0 +1,66 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1400px) {
+    .banner .img-content{
+        padding-top: 50px;
+    }
+    .about .content{
+        padding: 40px 0;
+    }
+    
+    .blog .card br, .locations .card br{
+        display: none;
+    }
+
+    .blog .card-body .exceptional{
+        margin-bottom: 8px;
+    }
+   
+   .explore p{
+    width: auto !important;
+   }
+   .contact .top p{
+    width: auto;
+   } 
+   .address .content p{
+    width: 100% !important
+    }
+
+   .gallery img{
+    width: 100%;
+    object-fit: cover;
+   margin-top: 10px;
+    }
+    .appetizer .card-body h5 {
+        font-size: 14px;
+    }
+    .services .card-body{
+      width: 100%;
+    }
+    
+    .resturent .content-header{
+        width: 100% !important;
+    }
+    .contact .content{
+        padding: 30px 0;
+    }
+    .resturent .content-header {
+        width: 100%;
+    }
+   .dishes .btn{
+       width: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px)  {
+    .locations .card-footer p{
+        font-size: 9px !important;
+        margin-left: 6px;
+        }
+}
+
+@media screen and (min-width:1440px){
+    .custom-size{
+        max-width: 1300px !important;
+        margin: 0 auto;
+    }
+}

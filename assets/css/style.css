@@ -1,0 +1,364 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    color: #201F1E;
+    margin: 0;
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #373737;
+    margin: 0;
+    font-family: 'Open Sans'
+}
+
+.btn-nav{
+border-radius: 8px;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+}
+
+.main-btn{
+    background: #F42020; padding: 16px 32px;
+    border: 1px solid #F42020;
+}
+
+.main-btn:hover{
+    background: #DE1313;
+}
+.main-btn:focus{
+    background-color: #CD0000;
+}
+.secondary-btn{
+    padding: 12px 24px; border: 1px solid #F42020; color: #F42020; background: rgba(244, 32, 32, 0.03);
+}
+.secondary-btn:hover{
+   background-color: #F42020;  
+   color: #fff; 
+}
+.secondary-btn:focus{
+    background-color: #CD0000; 
+    color: #fff; 
+}
+/* header */
+header{
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+header nav{
+    padding: 16px 0 !important;
+}
+header .nav-item{
+    padding: 10px;
+    margin: 0 10px;
+}
+
+header .nav-link{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+}
+
+/* banner section */
+
+.banner{
+    padding: 46px 0 104px;
+     background: rgba(218, 240, 219, 0.28);
+}
+.banner h1{
+    font-size: 64px;
+    line-height: 70px;
+}
+.banner p{
+    line-height: 22px;
+    padding-top: 32px;
+    padding-bottom: 60px;
+    font-family: 'Open Sans'
+}
+
+/* services */
+.services{
+    margin-top: 140px;
+    margin-bottom: 120px;
+}
+.services .card-body img{
+    width: 60px;
+    height: 60px;
+}
+.services .card-body{
+    padding: 32px 28px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+background: #fff;
+}
+.services .card-body p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #373737;
+}
+
+.services .card-body h3{
+ padding: 24px 0 18px;
+ font-size: 30px;
+ line-height: 36px;
+}
+.services .row{
+    background: url('../../images/Frame 162.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 69px;
+    padding-bottom: 39px;
+}
+
+/* locations */
+.locations{
+    margin-bottom: 120px;
+}
+
+.locations .top h4{
+    font-size: 32px;
+    line-height: 39px;
+}
+.locations .top p{
+    
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.locations .card{
+   background: #FFFFFD;
+   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
+   border-radius: 12px;
+   border: none;
+}
+.locations .card .inside-text{
+    padding: 6px 8px;
+    width: 50px;
+    height: 28px;
+    background: rgba(28, 28, 28, 0.6);
+    border-radius: 8px;
+    text-align: center;
+    top: 12px;
+    left: 12px;
+}
+.locations .card .inside-text p{
+   
+font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+.locations .card .inside-icon{
+    width: 27px;
+    height: 27px;
+    background: rgba(28, 28, 28, 0.6);
+    border-radius: 8px;
+    top: 12px;
+    right: 12px;
+    text-align: center;
+}
+.locations .card .inside-icon .fa-regular{
+    width: 27px;
+    height: 27px;
+    background: rgba(28, 28, 28, 0.6);
+    border-radius: 8px;
+    top: 12px;
+    right: 12px;
+    text-align: center;
+}
+.locations .card-body{
+   padding: 14px 22px;
+   border: 0.8px solid #CECECE;
+   border-bottom: none;
+}
+
+.locations .card-text{
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+    line-height: 16px;
+}
+.locations .content{
+    margin-top: 12px;
+}
+.locations .content img{
+    margin-right: 10px;
+}
+.locations h4{
+    font-size: 16px;
+line-height: 22px;
+font-weight: 600;
+font-family: 'Open Sans';
+font-style: normal;
+}
+.locations .card-footer{
+    padding: 15px 22px;
+    border-top: 0.4px solid #BABABA;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    border: 0.8px solid #CECECE;
+}
+.locations .card-footer p{
+    font-weight: 500;
+font-size: 12px !important;
+line-height: 15px;
+color: #17AD86;
+margin-left: 8px;
+}
+
+
+/* about us */
+
+.about{
+    margin-bottom: 120px;
+}
+
+.about h6{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #17AD86;
+
+}
+
+.about h3{
+    font-size: 32px;
+    line-height: 29px;
+    margin: 32px 0;
+}
+
+/* blog */
+.blog{
+    margin-bottom: 120px;
+}
+
+.blog .top h6{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #17AD86;
+    margin-bottom: 16px;
+}
+.blog .top h3{
+    font-size: 32px;
+line-height: 39px;
+margin-bottom: 58px;
+}
+.blog .card-body h3{
+    font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+margin-bottom: 8px;
+font-family: 'Open Sans';
+font-style: normal;
+
+}
+
+.blog .card{
+    background: #FFFFFF;
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.08);
+border-radius: 8px;
+    padding: 18px;
+    border: none;
+}
+.blog .card-body{
+    padding: 0;
+}
+
+.blog .card-body h6{
+    font-family: 'Open Sans';
+font-style: normal;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #686868;
+margin: 8px 0 16px;
+}
+
+.blog .card-body .exceptional{
+    margin-bottom: 35px;
+}
+
+/* footer */
+
+footer{
+    background-color: #F8FDFB;
+    padding: 89px 0 0;
+}
+
+footer .content h5{
+    margin: 12px 0 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #373737;
+}
+footer .list li a{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #201F1E;
+}
+footer .content p{
+    line-height: 22px;
+}
+footer .list h6{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #F42020;
+    margin-bottom: 32px;
+}
+footer .list li{
+    margin-top: 16px;
+}
+footer .copyrights{
+    margin-top: 49px;
+    padding: 22px 0 28px;
+    border-top: 0.8px solid rgba(18, 17, 17, 0.3);
+    background:  #F8FDFB;
+}
+footer .copyrights li{
+    margin-left: 24px;
+}
+footer .copyrights p{
+font-weight: 500;
+line-height: 24px;
+}
+
+
